@@ -104,7 +104,7 @@ public class CourseFrame extends JFrame {
     }
 
     private void savecoursesToFile(Course course) {
-        try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("courses.txt", true)))) {
+        try (PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter("../courses.txt", true)))) {
             writer.println(course.toString());
         } catch (IOException e) {
             e.printStackTrace();
