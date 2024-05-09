@@ -1,4 +1,4 @@
-package L8.task.second;
+package LAB.L8.task.second;
 
 public class EmployeeData {
     private String name;

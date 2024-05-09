@@ -1,4 +1,4 @@
-package L8.FileExample;
+package LAB.L8.FileExample;
 
 import java.io.FileWriter;
 import java.io.IOException;

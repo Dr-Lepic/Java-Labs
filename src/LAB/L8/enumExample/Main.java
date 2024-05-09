@@ -1,4 +1,4 @@
-package L8.enumExample;
+package LAB.L8.enumExample;
 
 public class Main {
     public static void main(String[] args) {

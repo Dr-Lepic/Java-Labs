@@ -36,7 +36,7 @@ class Grade
     void displayGrade()
     {
         double sum= attendance+quiz+mid+fin;
-        double total= (sum/300)*100;
+        float total= (float) ((sum/300)*100);
         if(total>=80)
         {
             System.out.println("A+");

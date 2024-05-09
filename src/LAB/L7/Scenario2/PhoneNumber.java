@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PhoneNumber{
     public static void isValidPhoneNumber(String phoneNumber) throws MobileNumberValidator{
-        if(phoneNumber.matches("\\+880\\-\\d{4}\\-\\d{6}") ){
+        if(phoneNumber.matches("\\+880-\\d{4}-\\d{6}") ){
             System.out.println("Valid phone number: " + phoneNumber);
         }
         else{

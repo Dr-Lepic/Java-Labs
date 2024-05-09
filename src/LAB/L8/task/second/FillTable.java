@@ -1,4 +1,4 @@
-package L8.task.second;
+package LAB.L8.task.second;
 
 import java.util.List;
 public class FillTable {

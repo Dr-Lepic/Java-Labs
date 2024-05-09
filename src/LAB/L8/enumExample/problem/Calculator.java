@@ -1,4 +1,4 @@
-package L8.enumExample.problem;
+package LAB.L8.enumExample.problem;
 
 import java.util.Scanner;
 

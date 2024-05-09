@@ -3,8 +3,7 @@ package LAB.L9.Task;
 import LAB.L9.FileExample.Person;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.zip.CheckedOutputStream;
 
 public class Semester {
@@ -28,7 +27,7 @@ public class Semester {
             bufferedWriter.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }
+            }
     }
 
     public void storeCourseInFile(String filepath){

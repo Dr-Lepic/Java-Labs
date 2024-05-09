@@ -1,4 +1,4 @@
-package L8.task.first;
+package LAB.L8.task.first;
 
 import java.util.List;
 import java.util.Objects;
