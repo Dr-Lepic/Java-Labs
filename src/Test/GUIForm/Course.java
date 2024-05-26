@@ -6,6 +6,11 @@ package Test.GUIForm;
  * Time: 2:58 PM
  */
 
+/**
+ * modified by Lepic
+ * Date: 9/5/24
+ */
+
 public class Course {
     private String code;
     private String name;

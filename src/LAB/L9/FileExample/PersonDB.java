@@ -23,7 +23,7 @@ public class PersonDB {
                 System.out.println("Read from file");
                 System.out.println("Name: "+ values[0] + " Age: " + values[1] +
                         " Mobile: " + values[2] + " Address: " + values[3]);
-                Person person = new Person(values[0], Integer.valueOf(values[1]), values[2],values[3]);
+                Person person = new Person(values[0], Integer.parseInt(values[1]), values[2],values[3]);
                 retrivedPersonList.add(person);
             }
             bufferedReader.close();

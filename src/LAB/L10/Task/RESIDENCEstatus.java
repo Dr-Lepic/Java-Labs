@@ -1,4 +1,4 @@
-package L10.Task;
+package LAB.L10.Task;
 
 public enum RESIDENCEstatus {
     RESIDENCE("RESIDENCE"),NON_RESIDENCE("NON_RESIDENCE");

@@ -65,7 +65,8 @@ public class CourseFrame extends JFrame {
                     savecoursesToFile(course);
                     clearFields();
                 } catch (NumberFormatException ex) {
-                    JOptionPane.showMessageDialog(CourseFrame.this, "Invalid Credit format. Please enter a valid credit.", "Error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(CourseFrame.this, "Invalid Credit format. Please enter a valid credit.",
+                            "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });

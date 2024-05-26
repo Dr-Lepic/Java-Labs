@@ -1,4 +1,4 @@
-package L10;
+package LAB.L10;
 
 import javax.swing.*;
 import java.awt.*;

@@ -38,6 +38,7 @@ public class Writer {
 //               String[] token1 = tokens[0].split(" +");
 //                list.add(new Writer(token1[0], token1[1],tokens[1],tokens[2]));
                 list.add(new Writer(tokens[0], tokens[1],tokens[2],tokens[3]));
+                br.close();
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

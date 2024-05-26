@@ -1,4 +1,4 @@
-package L10.Task;
+package LAB.L10.Task;
 
 public class Course {
     public String code;
